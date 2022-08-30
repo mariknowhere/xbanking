@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/modal.css">
+  <title>XBanking</title>
+</head>
+<body>
+  <div class="modal">
+    <div class="modal-card">
+      <div class="modal-side">
+        <h2>Фиксированные депозиты</h2>
+        <div class="modal-divider"></div>
+        <h2>Название токена</h2>
+        <span class="modal-category">Тип</span>
+        <button class="modal-button">
+          <span class="modal-button-text">Фиксированная ставка</span>
+        </button>
+        <span class="modal-category modal-category-time">Срок</span>
+        <div class="modal-buttons">
+          <button class="modal-button modal-button-time">
+            <span class="modal-button-text modal-button-time-text">30 дней</span>
+          </button>
+          <button class="modal-button modal-button-time">
+            <span class="modal-button-text modal-button-time-text">60 дней</span>
+          </button>
+          <button class="modal-button modal-button-time">
+            <span class="modal-button-text modal-button-time-text">90 дней</span>
+          </button>
+          <button class="modal-button modal-button-time">
+            <span class="modal-button-text modal-button-time-text">180 дней</span>
+          </button>
+          <button class="modal-button modal-button-time">
+            <span class="modal-button-text modal-button-time-text">365 дней</span>
+          </button>
+        </div>
+        <h3>Расч. APR:</h3>
+        <div class="modal-text-wrapper">
+          <span class="modal-text">Заблокировать сумму</span>
+          <span class="modal-text">Баланс:</span>
+        </div>
+        <div class="modal-input-wrapper">
+          <input id="sum" type="number" placeholder="Введите сумму" class="modal-input">
+          <div class="modal-input-separator"></div>
+          <label for="sum" class="modal-input-label">Макс</label>
+        </div>
+        <span class="modal-minimum">Минимум 0.001 RUB</span>
+      </div>
+      <div class="modal-side">
+        <h2 class="modal-title">Итого</h2>
+        <div class="modal-divider"></div>
+        <div class="modal-info">
+        <div class="modal-date-wrapper">
+          <label for="start" class="modal-date-label">Дата начала</label>
+          <input id="start" type="date" class="modal-date">
+        </div>
+        <div class="modal-date-wrapper">
+          <label for="end" class="modal-date-label">Дата завершения начисления процентов</label>
+          <input id="end" type="date" class="modal-date">
+        </div>
+        <div class="modal-paragraphs">
+          <div class="modal-paragraph-wrapper">
+            <p class="modal-paragraph">
+              Годовая процентная ставка корректируется ежедневно и зависит от вознаграждений в сети.
+              Актуальное значение отображается на странице каждый день.
+            </p>
+          </div>
+          <div class="modal-paragraph-wrapper">
+            <p class="modal-paragraph">
+              APR не является фактической или прогнозируемой доходностью.
+            </p>
+          </div>
+          <div class="modal-paragraph-wrapper">
+            <img src="images/horn.svg" alt="horn" class="modal-image">
+            <p class="modal-paragraph-another">
+              После завершения периода депонирования или досрочного изъятия, все цифровые активы будут возвращены из
+              фиксированного депозита на кошельки пользователя. При этом стоимость цифровых активов может измениться.
+            </p>
+          </div>
+        </div>
+        <div class="modal-checkbox-wrapper">
+          <input id="check" type="checkbox" class="modal-checkbox">
+          <label for="check" class="modal-checkbox-label">Я прочитал(а) и согласен(на) с условиями</label>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

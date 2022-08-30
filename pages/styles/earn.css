@@ -1,0 +1,184 @@
+body {
+  background: white;
+  margin: 0;
+}
+
+.earn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.earn-button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 45px 0 0;
+}
+
+.earn-button {
+  padding: 8px 25px;
+  border: 3px solid black;
+  background: white;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+.earn-button span {
+  color: black;
+}
+
+.earn-button:hover {
+  background: black;
+}
+
+.earn-button:hover span {
+  color: white;
+}
+
+.earn-button-text {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+.earn-image-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.earn-image {
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.earn-topic {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  font-weight: normal;
+  margin: 0 0 20px;
+}
+
+.earn-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.earn-buttons {
+  padding: 40px 10px 0 0;
+}
+
+.earn-secondary-button-wrapper {
+  justify-content: flex-start;
+}
+
+.earn-secondary-button {
+  width: 100%;
+}
+
+.earn-secondary-button-text {
+  font-size: 26px;
+}
+
+.earn-table-wrapper {
+  width: 100%;
+}
+
+.earn-table {
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.earn-table-head {
+  padding-bottom: 8px;
+  text-align: inherit;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: normal;
+  color: #9A9A9A;
+}
+
+.earn-table-head-time {
+  text-align: center;
+}
+
+.earn-table-row {
+  background: #EFEFEF;
+}
+
+.earn-table-data {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.earn-table-token-image {
+  margin: 0 40px 0 20px;
+}
+
+.earn-table-token-text {
+  font-size: 22px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.earn-table-apr {
+  color: #379200;
+}
+
+.earn-table-body-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.earn-time-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 20px;
+  border: 1px solid black;
+  background: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+.earn-time-button-text {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.earn-time-image-wrapper {
+  margin: 5px 15px 0;
+  position: relative;
+}
+
+.earn-time-image-one {
+  width: 12px;
+}
+
+.earn-time-image-two {
+  width: 12px;
+  position: absolute;
+  top: 0;
+  left: 9px;
+}
+
+.earn-table-button {
+  padding: 2px 25px;
+}
+
+.earn-table-button-text {
+  font-family: 'Inika', serif;
+  font-size: 18px;
+}

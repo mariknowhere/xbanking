@@ -1,0 +1,187 @@
+body {
+  background: white;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 4px;
+  font-size: 18px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.deposit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.deposit-button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 45px 0 0;
+}
+
+.deposit-button {
+  padding: 8px 25px;
+  border: 2px solid black;
+  background: white;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+.deposit-button span {
+  color: black;
+}
+
+.deposit-button:hover {
+  background: black;
+}
+
+.deposit-button:hover span {
+  color: white;
+}
+
+.deposit-button-text {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+.deposit-image-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.deposit-image {
+  max-width: 700px;
+  width: 100%;
+}
+
+.deposit-topic {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  margin: 0 0 50px;
+}
+
+.deposit-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.deposit-buttons {
+  padding-top: 40px;
+}
+
+.deposit-secondary-button-wrapper {
+  justify-content: flex-start;
+}
+
+.deposit-secondary-button {
+  width: 100%;
+}
+
+.deposit-secondary-button-text {
+  font-size: 26px;
+}
+
+.deposit-input-wrapper {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.deposit-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.deposit-input {
+  padding: 15px 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 18px;
+}
+
+.deposit-input-wrapper:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.deposit-time-image-wrapper {
+  margin: 5px 15px 0;
+  pointer-events: none;
+  position: absolute;
+  right: 10px;
+  top: 45px;
+}
+
+.deposit-time-image-one {
+  width: 20px;
+}
+
+.deposit-time-image-two {
+  width: 20px;
+  position: absolute;
+  top: 0;
+  left: -17px;
+}
+
+.deposit-inputs-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.deposit-inputs {
+  width: 60%;
+  margin-right: 40px;
+}
+
+.deposit-description {
+  margin: 4px 0;
+  text-indent: 20px;
+}
+
+.deposit-contact {
+  margin: 0 0 20px 20px;
+}
+
+.deposit-faq {
+  margin-left: 20px;
+}
+
+.deposit-footer {
+  margin-top: 60px;
+}
+
+.deposit-footer-title {
+  margin: 0 0 15px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: normal;
+}
+
+.deposit-footer-code {
+  margin-bottom: 20px;
+}
+
+.deposit-footer-image {
+  width: 100%;
+  max-width: 200px;
+}
+
+.deposit-footer-network {
+  margin-top: 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  width: 25%;
+}

@@ -1,0 +1,136 @@
+body {
+  background: white;
+  margin: 0;
+}
+
+.wallets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.wallets-button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 45px 0 0;
+}
+
+.wallets-button {
+  padding: 8px 25px;
+  border: 3px solid black;
+  background: white;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+.wallets-button span {
+  color: black;
+}
+
+.wallets-button:hover {
+  background: black;
+}
+
+.wallets-button:hover span {
+  color: white;
+}
+
+.wallets-button-text {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+.wallets-image-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.wallets-image {
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.wallets-topic {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  font-weight: normal;
+  margin: 0 0 20px;
+}
+
+.wallets-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.wallets-buttons {
+  padding: 40px 10px 0 0;
+}
+
+.wallets-secondary-button-wrapper {
+  justify-content: flex-start;
+}
+
+.wallets-secondary-button {
+  width: 100%;
+}
+
+.wallets-secondary-button-text {
+  font-size: 26px;
+}
+
+.wallets-table-wrapper {
+  width: 100%;
+}
+
+.wallets-table {
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.wallets-table-head {
+  padding-bottom: 8px;
+  text-align: inherit;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: normal;
+  color: #9A9A9A;
+}
+
+.wallets-table-row {
+  background: #EFEFEF;
+}
+
+.wallets-table-data {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.wallets-table-token-image {
+  margin: 0 40px 0 20px;
+}
+
+.wallets-table-token-text {
+  font-size: 22px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.wallets-table-text {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+}
+
+.wallets-table-head-balance {
+  width: 25%;
+}
